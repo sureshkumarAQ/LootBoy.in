@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write in iitbhu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="iitbhustyle.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="row" id="head">
+                <div class="col-md-4"><img src="logo180x45.png">
+                </div>
+                <div class="col-md-8"><h2>Write Your Confession 100% Anonymously</h2>
+                </div>
+            </div>
+            <div class="row" id="menubar">
+                <img src="toggle.png" id="barimg"><p>Menu</p>
+                    <div class="col-sm"><a href="index.html">Home</a></div>
+                    <div class="col-sm"><a href="collegelist.html">College</a></div>
+                    <div class="col-sm"><a href="#">CollegeInfo</a></div>
+                    <div class="col-sm" id="StartWriting"><a href="startwriting.html">StartWriting</a></div>   
+            </div>
+            <div class="row" id="writehere">
+                <div class="col" id="writeherecol" >
+                    <h2>Write in IIT Guwahati.</h2>
+                    <div id="writeherediv" data-gram="false" contenteditable="true" data-placeholder="Start Writing"></div>
+                    <div class="row" id="buttonrow">
+                        <div class="col" id="buttoncol">
+                            <button id="button">Publish</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="iitbhurow">
+                <div class="col" id="iitbhucol"><p id="iitbhup">Recent Post</p></div></div>
+            <div class="row" id="post"><div class="col" id="colpost">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem error facilis ipsa, mollitia non amet minus accusantium! Placeat unde eius uptatem voluptatum, dolore nisi optio. Error dicta non ipsum. Aliquam fugit pariatur quia officia!</div></div>
+                <div class="row">
+                   <div class="col" id="likecomment">
+                       <div id="likecommentbox">
+                           <button id="likecommentbtn"><img id="imglike" src="like.png"> </button>
+                           <div class="col"><div id="likeno"></div></div>
+                       </div>
+                   </div>
+                   <div class="col" id="likecomment">
+                    <div id="likecommentbox">
+                        <button id="likecommentbtn"><img id="imglike" src="comment.png"> </button>
+                        <div class="col"><div id="likeno"></div></div>
+                    </div>
+                </div>
+                </div>
+                <div class="row" id="post"><div class="col" id="colpost">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem error facilis ipsa, mollitia non amet minus accusantium! Placeat unde eius uptatem voluptatum, dolore nisi optio. Error dicta non ipsum. Aliquam fugit pariatur quia officia!</div></div>
+                    <div class="row">
+                       <div class="col" id="likecomment">
+                           <div id="likecommentbox">
+                               <button id="likecommentbtn"><img id="imglike" src="like.png"> </button>
+                               <div class="col"><div id="likeno"></div></div>
+                           </div>
+                       </div>
+                       <div class="col" id="likecomment">
+                        <div id="likecommentbox">
+                            <button id="likecommentbtn"><img id="imglike" src="comment.png"> </button>
+                            <div class="col"><div id="likeno"></div></div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row" id="post"><div class="col" id="colpost">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem error facilis ipsa, mollitia non amet minus accusantium! Placeat unde eius uptatem voluptatum, dolore nisi optio. Error dicta non ipsum. Aliquam fugit pariatur quia officia!</div></div>
+                        <div class="row">
+                           <div class="col" id="likecomment">
+                               <div id="likecommentbox">
+                                   <button id="likecommentbtn"><img id="imglike" src="like.png"> </button>
+                                   <div class="col"><div id="likeno"></div></div>
+                               </div>
+                           </div>
+                           <div class="col" id="likecomment">
+                            <div id="likecommentbox">
+                                <button id="likecommentbtn"><img id="imglike" src="comment.png"> </button>
+                                <div class="col"><div id="likeno"></div></div>
+                            </div>
+                        </div>
+                        </div>
+        </div>
+    </div>
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+    <script>
+     $(document).ready(function(){
+      $("#barimg").click(function(){
+        $(".col-sm").slideToggle('slow');
+      });
+     });
+    </script>
+     <!-- The core Firebase JS SDK is always required and must be listed first -->
+     <script src="/__/firebase/7.24.0/firebase-app.js"></script>
+
+     <!-- TODO: Add SDKs for Firebase products that you want to use
+          https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="/__/firebase/7.24.0/firebase-analytics.js"></script>
+
+     <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+</body>
+</html>

@@ -1,0 +1,320 @@
+#header{
+    background-color: #0b031f;
+    width: 100%;
+    z-index: 65;
+    position: absolute;
+
+}
+body{
+    background-color: #0b031f;
+}
+#head{
+    text-align: center;
+    font-family:Candara;
+    background-color: #080f75;
+    color: white;
+    border: 1px solid  #080f75;
+    border-radius: 5px;
+}
+#head h2{
+    font-weight: 550;
+    font-size: 29px;
+    padding: 1.5% 2%;
+}
+#menubar{
+    background-color: #080f75;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.8% 3%;
+    border: 1px solid  #080f75;
+    border-radius: 5px;
+    box-shadow: 2px 0px 10px  rgb(30, 87, 243);
+}
+.col-sm a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 19px;
+}
+#menubar a:hover{
+    color: #fbc531;
+    transition-duration: 0.4s;
+}
+#menubar img{
+    height: 30px;
+    width: 44px;
+    cursor: pointer;
+    margin-top: 5px;
+    display: none;
+}
+#menubar p{
+    display: none;
+}
+#StartWriting a{
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: #080f75;
+    padding: 0.5% 4%;
+}
+#StartWriting a:hover{
+    background-color:#fbc531 ;
+    color: black;
+    border: 3px solid #fbc531 ;
+    transition-duration: 0.4s;
+}
+#writeherecol{
+    text-align: center;
+    padding: 30px 20px;
+    
+}
+#writeherecol h2{
+    padding: 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    color: #fbc531;
+}
+#writehere{
+    text-align: center;
+}
+#writeherediv{
+    line-height: 1.42em;
+    height: 70%;
+    outline: none;
+    overflow-y: auto;
+    background-color: #161822;
+    text-align: left;
+    padding: 20px 20px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    white-space: pre-wrap;
+    border: 2px solid #161822;
+    border-radius: 5px;
+    box-shadow: 1px 1px  3px rgb(87, 86, 86);
+}
+#buttonrow{
+    margin-top: 16px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#buttoncol{
+    text-align: right;
+}
+#button{
+    padding: 2px 18px;
+    font-size: 18px;
+    color: #080f75;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+}
+#button:hover{
+    background-color:#fbc531 ;
+    color: black;
+    border: 2px solid #fbc531;
+    transition-duration: 0.6s;
+    border-radius: 3px;
+}
+#iitbhucol{
+    text-align:left;
+}
+#iitbhurow{
+    margin-top: 30px;
+    margin-bottom:10px ;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#iitbhup{
+    padding: 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #fbc531;
+}
+#post{
+    background-color :#080f75;
+    border: 3px solid #080f75;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top:1px ;
+    padding-left:20px ;
+    padding-right:20px ;
+    border-radius: 5px;
+}
+#colpost{
+    color: white;
+    height: 100px;
+    overflow-y: auto;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+#likecommentbtn{
+    margin-left: 10px;
+    margin-right: 0px;
+    padding-left:10px ;
+    padding-right:10px ;
+    background-color:#0b031f ;
+     color: white;
+     margin-top: 7px;
+     margin-bottom: 20px;
+     text-align: right;
+     border: 1px solid #0b031f;
+ }
+ #likecomment{
+    margin-left: 24px;
+    margin-right: 24px;
+    text-align: right;
+ }
+ #likecommentbox{
+     display: flex;
+     text-align: right;
+ }
+ #likeno{
+    margin-top: 10px;
+     height: 30px;
+     width: 40px;
+     background-color: blue;
+ }
+ @media only screen and (max-width: 437px){
+    #writeherecol h2{
+        font-size: 18px;
+    }
+    #likecomment{
+        margin-left: 2px;
+        margin-right: 2px;
+        text-align: center;
+        }
+        #likecommentbox{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        #imglike{
+            height: 19px;
+            width: 18px;
+        }
+        #likecommentbtn{
+            margin-left: 13px;
+            margin-right: 0px;
+            padding-left:4px ;
+            padding-right:4px ;
+            margin-top: 1px;
+            margin-bottom: 10px;
+            text-align:left;
+         }
+         #likeno{
+            margin-top: 10px;
+             height: 20px;
+             width: 30px;    
+        }
+        #post{
+            padding-left:14px ;
+            padding-right:14px ;
+        }
+        #colpost{
+            height: 140px;
+            overflow-y: auto;
+            font-size: 14px;
+        }
+ }
+ @media only screen and (max-width: 576px){
+    .col-md-4 img{
+        padding-top: 10px;
+    }   
+    #menubar{
+        background-color: #0759d4;
+        text-align: center;
+        border: 1px solid  #080f75;
+        border-radius: 0px;
+        //padding-bottom: 20px;
+        box-shadow: 0px 0px 0px   #0759d4;
+    }
+    
+    .col-sm{
+        padding: 15px 20px;
+        display: none;
+    }
+    #menubar a:hover{
+        color:#080f75;
+        transition-duration: 0.4s;
+        width: 100%;
+    }
+    #StartWriting a:hover{
+        background-color:#080f75 ;
+        color:white;
+        border: 3px solid #080f75;
+        transition-duration: 0.4s;
+    }
+    #menubar img{
+        height: 20px;
+        width: 34px;
+        display: block;
+        margin-top: 10px;
+    }
+    #menubar p{
+        color: white;
+        display: block;
+        margin-top: 9px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+
+    }
+    #iitbhup{
+        padding: 9px 6px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        color: #fbc531;
+    }
+    #iitbhurow{
+        margin-top: 25px;
+        margin-bottom:1px ;
+        margin-left: 2px;
+        margin-right: 20px;
+    }
+    #buttonrow{
+        margin-top: 7px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+        margin-right: 1px;
+    }
+    #button{
+        padding: 1px 12px;
+        font-size: 13px;
+        color: #080f75;
+        border: 1px solid #ffffff;
+        border-radius: 3px;
+    }
+    #button:hover{
+        background-color:#fbc531 ;
+        color: black;
+        border: 1px solid #fbc531;
+        transition-duration: 0.6s;
+        border-radius: 3px;
+    }
+    #writeherediv{
+        line-height: 1.42em;
+        height: 70%;
+        outline: none;
+        overflow-y: auto;
+        background-color: #161822;
+        text-align: left;
+        padding: 20px 2px;
+        margin-top:15px;
+        margin-bottom: 15px;
+        margin-left: 1px;
+        margin-right: 1px;
+        color: white;
+        white-space: pre-wrap;
+        border: 2px solid #161822;
+        border-radius: 5px;
+        box-shadow: 1px 1px  3px rgb(87, 86, 86);
+    }
+    #head h2{
+        font-size: 20px;
+    }
+    
+}
